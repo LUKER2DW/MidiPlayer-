@@ -3,7 +3,7 @@
 # Midi Player+
 
 **A modern piano autoplayer for Roblox.**
-Loads `.mid` files and plays them on the game's virtual keyboard —
+Loads `.mid` files and plays them on the game's virtual keyboard,
 respecting tempo, velocity and sustain.
 
 ![version](https://img.shields.io/badge/version-0.1.0--alpha-89b4fa?style=flat-square)
@@ -29,11 +29,11 @@ respecting tempo, velocity and sustain.
 
 - 🎹 **88-key and 61-key** layouts, auto-detected or manual
 - 🎚️ **Velocity + sustain** handled properly (no flat, robotic playback)
-- ⌨️ **Global hotkeys** — F1/F2/F3 work while Roblox is focused
-- 🪟 **Overlay mode** — floating always-on-top window that doesn't steal focus
-- 👤 **Unlimited profiles** — separate tempo / transpose / settings per game
+- ⌨️ **Global hotkeys**: F1/F2/F3 work while Roblox is focused
+- 🪟 **Overlay mode**: floating always-on-top window that doesn't steal focus
+- 👤 **Unlimited profiles**: separate tempo / transpose / settings per game
 - 🎨 **Modern themes** (Catppuccin + others)
-- 📦 **Portable** — no registry keys, no admin needed, clean uninstaller
+- 📦 **Portable**: no registry keys, no admin needed, clean uninstaller
 
 ## Why another autoplayer?
 
@@ -62,10 +62,10 @@ Measured on a real track (~100 keystrokes):
 | Key press (SendInput)        | **1.0 ms** | 2.4 ms | 3.2 ms | 3.3 ms |
 | **End-to-end latency**       | **~1.5 ms** | ~3.9 ms | ~5.3 ms | ~9 ms |
 
-Well below the ~10 ms perceptual threshold for audio alignment — dense
+Well below the ~10 ms perceptual threshold for audio alignment, so dense
 chords and fast passages stay tight.
 
-The one honest trade-off is **disk size** — the `.exe` is ~300 MB
+The one honest trade-off is **disk size**. The `.exe` is ~300 MB
 because it ships a full runtime. Shrinking this is on the roadmap.
 
 ## Default hotkeys
@@ -84,10 +84,6 @@ All remappable in **Settings → Keybinds**.
 ## Requirements
 
 - Windows 10 / 11 (64-bit)
-- ~800 MB free disk space
-- **Run as Administrator** recommended — Roblox can block synthetic
-  input from non-elevated processes.
-
 ## Uninstall
 
 Run `Uninstaller.exe` inside `Documents\Midi Player+\`. It confirms
@@ -100,14 +96,14 @@ and settings. No registry touched.
 self-contained.
 
 **Will I get banned?** Piano autoplayers are widely tolerated on Roblox
-and this app doesn't inject code or touch game files — it just sends
+and this app doesn't inject code or touch game files, it just sends
 keystrokes. That said, **use at your own risk.**
 
 **Is the source open?** Not yet. It'll be published once it's out of
 alpha. Only compiled binaries live here for now.
 
 **Why so big?** Bundled Python + Chromium-based UI runtime. Fixing this
-is a priority for v0.2.
+is a priority for v0.2. or in beta version
 
 ## Roadmap
 
@@ -120,7 +116,7 @@ is a priority for v0.2.
 
 ## Credits
 
-Inspired by [**MIDI++**](https://github.com/Zephkek/MIDIPlusPlus) and [**NanoMIDI**](https://github.com/NotHammer043/nanoMIDIPlayer) - thanks
+Inspired by [**MIDI++**](https://github.com/Zephkek/MIDIPlusPlus) and [**NanoMIDI**](https://github.com/NotHammer043/nanoMIDIPlayer). Thanks
 to the Roblox piano community and midi community for keeping this scene alive.
 
 ---
